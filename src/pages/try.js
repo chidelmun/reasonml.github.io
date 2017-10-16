@@ -575,6 +575,15 @@ export default class Try extends Component {
             </ul>
           </div>
           <div css={styles.toolbarButton}>
+            <button onClick={null}>Remove unused Code</button>
+            <input
+              css={styles.toolbarCheckbox}
+              type="checkbox"
+              checked={null}
+              onChange={null}
+            />
+          </div>
+          <div css={styles.toolbarButton}>
             <button onClick={this.evalLatest}>Evaluate</button>
             <input
               css={styles.toolbarCheckbox}
